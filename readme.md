@@ -1,6 +1,9 @@
 # Phone Contacts Application Documentation
 
 This application by means of classic CRUD operations to manage a telephone directory (Surname, Name, phone number, address, geodata lat/lon, other info). The search on this entity shall be full text for the alphanumeric fields and exact match for the telephone number.
+
+![alt text](diagram.png)
+
 ## Microservices
 
 - **Auth Microservice:**
@@ -10,7 +13,7 @@ This application by means of classic CRUD operations to manage a telephone direc
   password: test
 
 - **Api Microservice:**
-    This microservice handles the frontend calls, enabling classic CRUD operations on the contact model. Every CRUD operation syncronize data between MongoDB and ElasticSearch
+  This microservice handles the frontend calls, enabling classic CRUD operations on the contact model. Every CRUD operation syncronize data between MongoDB and ElasticSearch
 
 ## Technologies Used
 
@@ -42,7 +45,6 @@ npm run start
 cd ./post
 npm i
 npm run start
-
 
 ## Start frontend
 
